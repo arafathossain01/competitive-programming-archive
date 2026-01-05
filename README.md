@@ -7,4 +7,6 @@ It is mainly focused on improving **problem-solving skills**, **data structures*
 - Strengthen problem-solving ability
 
 ## compile and run (bash)
-g++ file_name.cpp -o file_name && ./file_name
+**g++ file_name.cpp -o file_name && ./file_name**
+- To put exe or o file in another file <br>
+**g++ file_name.cpp -o output/file_name && ./output/file_name**
