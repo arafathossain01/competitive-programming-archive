@@ -53,11 +53,8 @@ int main()
          << "Pointer: " << ptr << endl;
     cout << "value: " << ref << endl;
 
-    //STL containers
-    vector<int> v = {20,30,40,50};
+    // STL containers
+    vector<int> v = {20, 30, 40, 50}; // unknown array size
     
-    
-
-
     return 0;
 }
