@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// global declaration 
+
+const int n = 1e7; // it will run and never show the segmatation fault.
+int arrg[n];
 int main()
 {
     // Array declaration
@@ -24,3 +28,5 @@ int main()
     }
     return 0;
 }
+
+/* Usually an array size is 10^5 in local array and in global scope it is 10^7 or 10^8 depand on system.*/
