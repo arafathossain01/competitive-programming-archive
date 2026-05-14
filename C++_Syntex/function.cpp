@@ -39,6 +39,16 @@ void arrFunc(int num[5])
     }
 }
 
+int plusPoint(int a, int b) // same function name | func overloading
+{
+    int sum = a + b;
+    return sum;
+}
+double plusPoint(double a, double b) // same func name | func overloading
+{
+    float sum = a + b;
+    return sum;
+}
 int main()
 {
     Car mycar;
@@ -53,4 +63,10 @@ int main()
 
     int arr[5] = {10, 20, 30, 40, 50};
     arrFunc(arr);
+
+   int sum1 = plusPoint(2, 3);
+   float sum2 = plusPoint(3.5, 6.7);
+
+   cout<<"int sum: "<<sum1<<endl;
+   cout<<"double sum: "<<sum2<<endl;
 }
